@@ -1,0 +1,18 @@
+{
+  "name": "cobranding-logo-generator",
+  "version": 2,
+  "public": true,
+  "buildCommand": "",
+  "outputDirectory": ".",
+  "devCommand": "python -m http.server 3000",
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
+  ],
+  "env": [],
+  "git": {
+    "deploymentEnabled": true
+  }
+}
